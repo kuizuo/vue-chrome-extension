@@ -1,0 +1,26 @@
+.float-page {
+  width: 400px;
+  border-radius: 8px;
+  position: fixed;
+  left: 50%;
+  top: 25%;
+  z-index: 1000001;
+}
+
+.el-card__header {
+  padding: 10px 15px !important
+}
+
+.ul-box {
+  height: 200px;
+  overflow: hidden;
+}
+
+.ul-enter-active,
+.ul-leave-active {
+  transition: all 0.5s;
+}
+.ul-enter,
+.ul-leave-to {
+  height: 0;
+}
